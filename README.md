@@ -31,19 +31,13 @@ The performance of the classification algorithms was evaluated based on the ROC 
 
 ## Usage
 
-To run the code in the `classification.ipynb` notebook, you will need to have Python 3 and Jupyter Notebook installed on your machine. You can install the required Python packages by running the following command in your terminal:
+To run the code in the `DM.ipynb` notebook, you will need to have Python 3 and Jupyter Notebook installed on your machine. 
+Then, start Jupyter Notebook and open the `DM.ipynb` file to run the code. It will provide a pre processed dataset which is then to be fed to Orange.
 
-
-
-Then, start Jupyter Notebook and open the `classification.ipynb` file to run the code.
-
-```python
-pip install -r requirements.txt
-```
 
 ## Results
 
-The results of the classification task are summarized in the `classification.ipynb` notebook. The ROC curves for each of the classification algorithms are shown, along with the area under the curve (AUC) metric. Based on the AUC metric, the Naive Bayes algorithm and the Neural Network algorithm performed the best among the four algorithms that were tested.
+The results of the classification task are summarized in the `DM.ipynb` notebook. The ROC curves for each of the classification algorithms are shown, along with the area under the curve (AUC) metric. Based on the AUC metric, the Naive Bayes algorithm and the Neural Network algorithm performed the best among the four algorithms that were tested.
 
 ## Conclusion
 
